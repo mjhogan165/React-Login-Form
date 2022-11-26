@@ -1,0 +1,119 @@
+.summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.summary h1 {
+  text-align: right;
+}
+
+.summary h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.summary h3{
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.promo-container{
+  text-align: left;
+  padding: 16px 0px;
+}
+.promo-container div{
+  display: flex;
+  gap: 10px;
+}
+
+.promo-container button{
+  margin: 0;
+  display: unset;
+  font-size: 18px;
+  padding: 6px;
+}
+
+
+.summary-item {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 10px;
+  align-items: center;
+  border-bottom: solid 2px var(--font-color-faded);
+  padding: 10px 0px;
+}
+.summary-item h3{
+  margin: 0px;
+  text-align: left;
+  font-size: 16px;
+  margin-bottom: 7px;
+}
+
+.sum-it-img-wrap{
+  height: 100px;
+  width: 100%;
+}
+.sum-it-img-wrap img {
+  object-fit: scale-down;
+  width: inherit;
+  height: inherit;
+}
+.sum-it-prod-info{
+  font-size: 14px;
+  position: relative;
+}
+.sum-it-table th, .sum-it-table td{
+  padding: 1px;
+}
+
+.sum-it-table{
+  border-collapse: collapse;
+}
+.sum-it-price{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.summary-cost{
+  padding: 10px 0px;
+}
+
+.sum-cost-table caption {
+  padding: 10px;
+}
+
+.sum-cost-table {
+  border-collapse: collapse;
+  text-align: left;
+  width: 100%;
+}
+
+.sum-cost-table th,
+td {
+  padding: 5px;
+}
+
+.summary{
+  text-align: left;
+}
+
+.sum-ship-address {
+  border-bottom: solid 2px var(--font-color-faded);
+  border-top: solid 2px var(--font-color-faded);
+  text-align: left;
+  padding: 10px 0;
+}
+
+.sum-pay-ship{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.button.checkout-btn {
+  padding: 0;
+  margin-top: 5px;
+
+}

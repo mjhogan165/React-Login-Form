@@ -1,0 +1,110 @@
+
+:root {
+  --font-color-base: rgb(40, 40, 40);
+  --font-color-selected: rgb(204,44,83);
+  --font-color-error: rgb(223,105,100);
+  --font-color-grey:rgba(158,158,158, 100%);
+  --font-color-faded: rgb(241,241,241);
+  --color-fb: rgba(65,90,146, 1);
+  --icon-color-dark: rgb(74, 74, 74);
+
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--font-color-base);
+  /* font-family: 'Gurajada', serif;
+  font-family: 'Work Sans', sans-serif; */
+  font-family: 'Share', cursive;
+  
+}
+
+h1{
+  border-bottom: solid 2px var(--font-color-faded);
+  margin: 0;
+  padding: 0px 0 15px 0;
+}
+
+.button, h1{
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 26px;
+}
+
+.button {
+  margin: 0;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form h2{
+  font-weight: 600;
+  font-size: 18px;
+}
+
+
+fieldset {
+  border: none;
+}
+
+.button{
+  font-family: inherit;
+  border: none;
+  background-color: var(--font-color-selected);
+  min-width: max-content;
+  padding: 10px;
+  color: white;
+  min-width: 100%;
+  cursor: pointer;
+  min-height: 60px;
+}
+
+.btn-bw{
+  min-width: unset;
+  min-height: unset;
+  margin-top: 10px;
+  border: 2px solid black;
+  border-radius: 3px;
+  color: black;
+  background-color: transparent;
+  display: flex;
+  width: fit-content;
+}
+
+.container-base{
+  font-weight: 500;
+  font-size: 16px;
+  background-color: white;
+  padding: 35px; 
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 35px 0px;
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+.App {
+  background-color: #ffffff;
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 1vmin); */
+  color: var(--font-color-base);
+}
+
+

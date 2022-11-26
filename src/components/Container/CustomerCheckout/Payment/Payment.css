@@ -1,0 +1,18 @@
+.payment-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.pay-btn {
+  position: relative;
+  left: 20;
+}
+
+.payment-error {
+  color: red;
+  position: absolute;
+  bottom: -20px;
+  font-size: 14px;
+  width: max-content;
+}

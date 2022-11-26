@@ -1,0 +1,93 @@
+
+  .exp-date{
+    display: flex;
+    gap: 20px;
+  }
+
+  #input-cvv{
+    width: 95px;
+  }
+
+  #address-details {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+    justify-items: left;
+    padding-top: 15px;
+  }
+  #address-details label {
+    padding: 0px 10px 0px 10px;
+  }
+  #shipping-radios {
+    padding-top: 15px;
+  }
+  
+  #shipping-radios label {
+    display: flex;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  #shipping-radios h1 {
+    margin-bottom: 10px;
+  }
+  
+  #shipping-radios input {
+    margin: 0px 15px 0px 0px;
+    appearance: none;
+    border: solid 1px black;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    padding: 0;
+  }
+  
+  #shipping-radios label div {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: var(--font-color-selected);
+    position: absolute;
+    top: 3px;
+    left: 3px;
+  }
+
+  .selected{
+    display: block;
+  }
+  
+  .selection-container {
+    display: flex;
+    width: 100%;
+    grid-column: 2/9;
+  }
+  .selection-container input {
+    width: auto;
+  }
+  .selection-container div {
+    display: flex;
+    align-items: center;
+    width: 1fr;
+  }
+  
+  .shippingError{
+    color: red;
+    position: absolute;
+    bottom: -9px;
+    left: 108px;
+    font-size: 14px;
+  }
+
+  .zip-error{
+    bottom: -16px;
+    left: unset;
+  }
+
+  .drop-down-error{
+    bottom: -13px;
+    left: 10px;
+  }
+  .pos-rel{
+    position: relative;
+  }

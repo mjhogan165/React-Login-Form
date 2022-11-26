@@ -1,0 +1,67 @@
+.checkout-container {
+  width: 1320px;
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 125px auto;
+  grid-template-areas:
+    "a a a c"
+    "b b b c";
+}
+
+.checkout-container.confirmation-layout{
+  grid-template-areas:
+  "a a a a"
+  "b b c c";
+}
+
+.checkout-grid-a {
+  grid-area: a;
+}
+.checkout-grid-b {
+  grid-area: b;
+}
+.checkout-grid-c {
+  grid-area: c;
+}
+
+.checkout-form-base label {
+  padding: 0;
+  height: fit-content;
+  width: fit-content;
+}
+
+.checkout-form-base input, input[type=text] {
+  padding: 10px;
+  border: 2px solid #eee;
+  width: 100%;
+}
+.checkout-form-base fieldset {
+  padding: 5px 0px 0px 0px;
+}
+
+.checkout-form-base select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.checkout-form-base h1 {
+  text-align: left;
+}
+
+.input-row {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  text-align: left;
+  padding: 15px 0px 10px 0px;
+  justify-items: flex-start;
+  align-items: center;
+  position: relative;
+}
+
+.phone-prefix{
+  position: absolute;
+    left: 88px;
+    top: 25px;
+}

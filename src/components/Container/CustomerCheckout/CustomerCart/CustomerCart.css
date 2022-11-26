@@ -1,0 +1,20 @@
+.customer-cart {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  gap: 5px;
+}
+
+.cart-heading {
+  display: grid;
+  grid-template-columns: 6fr 2fr 2fr 2fr;
+  grid-template-rows: minmax(10px, 50px);
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.cart-heading .product-header {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: 1fr 4fr 4fr;
+}

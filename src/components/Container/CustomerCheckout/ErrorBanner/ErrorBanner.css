@@ -1,0 +1,33 @@
+.error-banner {
+    height: 75px;
+    background-color: var(--font-color-faded);
+    position: relative;
+    display: flex;
+    padding-left: 15px; 
+    align-items: center;
+    border-radius: 3px;
+}
+
+.error-banner :first-child{
+    color: var(--font-color-base);
+}
+
+.error-banner p {
+    margin: 0px;
+    font-size: 16px;
+    text-align: left;
+    color:rgb(197 82 82)
+}
+.error-banner .fa-solid.fa-triangle-exclamation{
+    margin-right: 15px;
+}
+
+
+
+#banner-x{
+    position: absolute;
+    background-color: transparent;
+    top: 1px;
+    height: auto;
+    margin: 0px;
+}
