@@ -16,7 +16,6 @@ export default class CustomerCheckout extends Component {
     super(props);
 
     this.state = {
-      pageName: "Customer Cart",
       pageName: "Cart",
       maxLength: OTHERCARDS.length,
       shippingInfo: {
